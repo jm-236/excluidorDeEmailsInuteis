@@ -18,43 +18,22 @@ pyautogui.press("enter")
 
 sleep(5)
 
-# foi pra aba promoções
-for i in range(0, 22):
+# foi pra aba "mais"
+for i in range(0, 14):
     pyautogui.press("tab")
 
-# clicou
 pyautogui.press("enter")
 
-# foi pro icone de selecionar os emails
 for i in range(0, 5):
-    pyautogui.hotkey("shift", "tab")
+    pyautogui.press("down")
 
-# selecionou os emails
-pyautogui.press("enter")
-pyautogui.press("down")
 pyautogui.press("enter")
 
-# foi pro icone de deletar
-for i in range(0, 3):
+for i in range(0, 10):
     pyautogui.press("tab")
-
-# deletou
-pyautogui.press("enter")
-
-# foi pra aba social
-for i in range(0, 5):
-    pyautogui.press("tab")
-
-pyautogui.press("enter")
-
-for i in range(0, 6):
-    pyautogui.hotkey("shift", "tab")
 
 pyautogui.press("enter")
 pyautogui.press("down")
 pyautogui.press("enter")
-
-for i in range(0, 3):
-    pyautogui.press("tab")
-
+pyautogui.press("tab")
 pyautogui.press("enter")
